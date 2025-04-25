@@ -9,9 +9,22 @@ The
 Dependencies
 
 Cadmium_v2 - https://github.com/SimulationEverywhere/cadmium_v2/tree/64f61d96e7296ea5d20d45a6543cfcca2dcbc68a
+
 BehavePlus - https://github.com/jsoulier/behave/tree/9ae08863da34b066848c011d7071f6084fb8f544
+
 QGIS - https://qgis.org/download/
+
 Python rasterio library - https://rasterio.readthedocs.io/en/stable/
+
+QGIS setup 
+
+Copy the wildfire_simulator_plugin into the QGIS folder (if you already have the plugin installed, simply replace the file called plugin.py):
+
+C:\Users\[username]\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\wildfire_simulator_plugin
+
+In the QGIS Plugins tab access the Python Console and type "import rasterio"
+Under "Plugins -> Manage and Install Plugins" search for the Wildfire Simulator plugin, check to add it and then restart QGIS
+There will now be a button for the Wildfire Simulation
 
 Build
 

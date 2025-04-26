@@ -1,0 +1,6 @@
+[submodule "lib/behave"]
+	path = lib/behave
+	url = https://github.com/jsoulier/behave
+[submodule "lib/cadmium_v2"]
+	path = lib/cadmium_v2
+	url = https://github.com/SimulationEverywhere/cadmium_v2

@@ -6,7 +6,7 @@ This repository contains a Cell-DEVS model of a wildfire, it builds on the work 
 
 **Dependencies**
 
-Cadmium_v2 - https://github.com/SimulationEverywhere/cadmium_v2/tree/64f61d96e7296ea5d20d45a6543cfcca2dcbc68a
+Cadmium_v2 - https://github.com/SimulationEverywhere/cadmium_v2/
 
 BehavePlus - https://github.com/jsoulier/behave/tree/9ae08863da34b066848c011d7071f6084fb8f544
 

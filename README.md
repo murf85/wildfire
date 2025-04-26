@@ -22,7 +22,7 @@ C:\Users\[username]\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\w
 
 In the QGIS Plugins tab access the Python Console and type "import rasterio"
 Under "Plugins -> Manage and Install Plugins" search for the Wildfire Simulator plugin, check to add it and then restart QGIS
-There will now be a button for the Wildfire Simulation
+There will now be a button for the Wildfire Simulation.
 
 **Maps**
 
@@ -48,6 +48,6 @@ NOTE: Every time you run build_sim.sh, the contents of build/ and bin/ will be r
 
 In order to run the model a .json configuration file is required. The examples discussed in the report can be found in the config folder.
 
-To run the models in this project, run the following command, replacing the with name of .json file containing the simulation parameters and the desired output filename:
+To run the models in this project, run the following command, replacing the with name of .json file containing the simulation parameters, the desired output filename and the start date and time for the simulation:
 
-./bin/wildfire config/[filename].json [filename].csv
+./bin/wildfire config/map_11.json output_11.csv "2025-04-28 10:30:00"

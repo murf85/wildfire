@@ -1,5 +1,5 @@
 add_executable(${projectName} main.cpp)
-
+set(CADMIUM_DIR $ENV{CADMIUM})
 target_include_directories(${projectName} PUBLIC
     "."
     "include"

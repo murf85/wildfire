@@ -8,7 +8,7 @@ This repository contains a Cell-DEVS model of a wildfire, it builds on the work 
 
 Cadmium_v2 - https://github.com/SimulationEverywhere/cadmium_v2/
 
-BehavePlus - https://github.com/jsoulier/behave/tree/9ae08863da34b066848c011d7071f6084fb8f544
+BehavePlus - https://github.com/jsoulier/behave/
 
 QGIS - https://qgis.org/download/
 
@@ -33,12 +33,39 @@ Elevation maps for all regions can be found here:
 https://ftp.maps.canada.ca/pub/elevation/dem_mne/highresolution_hauteresolution/dtm_mnt/
 
 
-
-
-
 **Build**
 
-To build this project, run:
+The dependencies on this project are broken. In order to properly run this project clone the main repo:
+
+To build this project, run in the command line:
+
+git clone https://github.com/murf85/wildfire
+
+navigate to the lib folder:
+
+cd wildfire
+
+cd lib
+
+install behave and cadmium:
+
+git clone https://github.com/jsoulier/behave
+
+git clone https://github.com/SimulationEverywhere/cadmium_v2
+
+navigate to cadmium:
+
+cd cadmium_v2
+
+install nlohmann: 
+
+git clone https://github.com/nlohmann/json
+
+navigate back to main directory and open the project in VSCode:
+
+code wildfire
+
+Inside VSCode build the project:
 
 source build_sim.sh
 
@@ -50,4 +77,17 @@ In order to run the model a .json configuration file is required. The examples d
 
 To run the models in this project, run the following command, replacing the with name of .json file containing the simulation parameters, the desired output filename and the start date and time for the simulation:
 
-./bin/wildfire config/map_11.json output_11.csv "2025-04-28 10:30:00"
+./bin/wildfire config/map_1.json output_1.csv "2025-04-28 10:30:00"
+
+**Viewer**
+
+To view the output in QGIS go to Layer-> Add Layer -> Add Delimited Text Layer then choose the output file
+Once the layer is available right click and choose Properties
+In the Temporal menu click the box Dynamic Temporal Control and then set the Configuration to Single Field with Date/Time, and click the box Accumulate features of time. 
+On the Temporal controller click the blue arrows and select Full Range, and set the step to seconds or minutes. The slide bar will reveal the burn progression. 
+
+For more detailed instruction on QGIS or maps see https://github.com/jsoulier/wildfire_simulator/blob/main/README.md
+
+
+
+

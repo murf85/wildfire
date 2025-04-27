@@ -44,8 +44,9 @@ navigate to the lib folder"
 cd wildfire
 cd lib
 
-install bahave and Cadmium:
+install behave and cadmium:
 git clone https://github.com/jsoulier/behave
+
 git clone https://github.com/SimulationEverywhere/cadmium_v2
 
 navigate to cadmium:

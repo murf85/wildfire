@@ -40,8 +40,10 @@ The dependencies on this project are broken. In order to properly run this proje
 To build this project, run in the command line:
 git clone https://github.com/murf85/wildfire
 
-navigate to the lib folder"
+navigate to the lib folder:
+
 cd wildfire
+
 cd lib
 
 install behave and cadmium:

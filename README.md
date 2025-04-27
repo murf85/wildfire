@@ -33,13 +33,31 @@ Elevation maps for all regions can be found here:
 https://ftp.maps.canada.ca/pub/elevation/dem_mne/highresolution_hauteresolution/dtm_mnt/
 
 
-
-
-
 **Build**
 
-To build this project, run:
+The dependencies on this project are broken. In order to properly run this project clone the main repo:
 
+To build this project, run in the command line:
+git clone https://github.com/murf85/wildfire
+
+navigate to the lib folder"
+cd wildfire
+cd lib
+
+install bahave and Cadmium:
+git clone https://github.com/jsoulier/behave
+git clone https://github.com/SimulationEverywhere/cadmium_v2
+
+navigate to cadmium:
+cd cadmium_v2
+
+install nlohmann 
+git clone https://github.com/nlohmann/json
+
+navigate back to main directory and open the project in VSCode:
+code wildfire
+
+Inside VSCode build the project:
 source build_sim.sh
 
 NOTE: Every time you run build_sim.sh, the contents of build/ and bin/ will be replaced.

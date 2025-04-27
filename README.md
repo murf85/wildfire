@@ -86,6 +86,8 @@ Once the layer is available right click and choose Properties
 In the Temporal menu click the box Dynamic Temporal Control and then set the Configuration to Single Field with Date/Time, and click the box Accumulate features of time. 
 On the Temporal controller click the blue arrows and select Full Range, and set the step to seconds or minutes. The slide bar will reveal the burn progression. 
 
+For more detailed instruction on QGIS or maps see https://github.com/jsoulier/wildfire_simulator/blob/main/README.md
+
 
 
 

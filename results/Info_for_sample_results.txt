@@ -1,0 +1,8 @@
+Both examples use the landcover 2020 found at 
+https://datacube-prod-data-public.s3.ca-central-1.amazonaws.com/store/land/landcover/landcover-2020-classification.tif
+
+map_1 and output_1 use the elevation layer dtm_1m_utm18_w_2_110 found at
+https://ftp.maps.canada.ca/pub/elevation/dem_mne/highresolution_hauteresolution/dtm_mnt/1m/QC/600021_46_RiviereGatineauLievre_2021/utm18/aspect_dtm_1m_utm18_w_2_110.tif
+
+map_2 and output_2 use the elevation layer dtm_1m_utm18_w_2_108 found at 
+https://ftp.maps.canada.ca/pub/elevation/dem_mne/highresolution_hauteresolution/dtm_mnt/1m/QC/600021_46_RiviereGatineauLievre_2021/utm18/aspect_dtm_1m_utm18_w_2_108.tif

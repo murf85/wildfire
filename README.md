@@ -35,33 +35,11 @@ https://ftp.maps.canada.ca/pub/elevation/dem_mne/highresolution_hauteresolution/
 
 **Build**
 
-The dependencies on this project are broken. In order to properly run this project clone the main repo:
+In order to properly run this project clone the main repo and all of the submodules using the clone and recurese submodules commands:
 
-To build this project, run in the command line:
-
-git clone https://github.com/murf85/wildfire
-
-navigate to the lib folder:
-
-cd wildfire
-
-cd lib
-
-install behave and cadmium:
-
-git clone https://github.com/jsoulier/behave
-
-git clone https://github.com/SimulationEverywhere/cadmium_v2
-
-navigate to cadmium:
-
-cd cadmium_v2
-
-install nlohmann: 
-
-git clone https://github.com/nlohmann/json
-
-navigate back to main directory and open the project in VSCode:
+git clone --recurse-submodules https://github.com/murf85/wildfire
+ 
+Open the project in VSCode:
 
 code wildfire
 
